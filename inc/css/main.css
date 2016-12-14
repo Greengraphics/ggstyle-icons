@@ -1,0 +1,19 @@
+.icon-link {
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+
+.icon {
+    display: block;
+}
+
+.icon svg {
+    display: block;
+    height: auto;
+    width: 32px;
+}
+
+.icon-name {
+    display: none;
+}
