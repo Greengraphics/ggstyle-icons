@@ -77,12 +77,12 @@ class Ggi
         // To do:
         // - Move output to seperate views folder
         $output = '';
-        $output .= ($link ? "<a class='icon-link' href='$link' title='$name' target='_blank'>" : '');
         $output .= "<i class='icon icon-$slug'>";
+        $output .= ($link ? "<a class='icon-link' href='$link' title='$name' target='_blank'>" : '');
         $output .= helper_functions\ggi_include(plugins_url("inc/icons/$slug.svg", __FILE__));
-        $output .= "</i>";
         $output .= "<span class='icon-name'>$name</span>";
         $output .= ($link ? "</a>" : "");
+        $output .= "</i>";
 
         return $output;
     }
